@@ -57,7 +57,7 @@ public class DBUtil {
                     migrateLocation = "filesystem:./migrate/h2";
                     comboPooledDataSource = new ComboPooledDataSource();
 
-                    comboPooledDataSource.setJdbcUrl( "jdbc:h2:./h2db/wfchat;AUTO_SERVER=TRUE;MODE=MySQL" );
+                    comboPooledDataSource.setJdbcUrl( "jdbc:h2:./h2db/atmpchat;AUTO_SERVER=TRUE;MODE=MySQL" );
                     comboPooledDataSource.setUser("SA");
                     comboPooledDataSource.setPassword("SA");
                     comboPooledDataSource.setMinPoolSize(5);
