@@ -36,6 +36,7 @@ DROP TABLE IF EXISTS `t_user`;
     `_account_number` varchar(64) NOT NULL '',
     `_gender` int(11) DEFAULT '0',
     `_portrait` varchar(1024) DEFAULT '',
+    `_nation_code` varchar(64) DEFAULT '',
     `_mobile` varchar(64) DEFAULT '',
     `_email` varchar(64) DEFAULT '',
     `_address` varchar(64) DEFAULT '',
